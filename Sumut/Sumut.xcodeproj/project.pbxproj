@@ -1,0 +1,658 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6336D061FC6C13C00A0CE9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6336D051FC6C13C00A0CE9B /* AppDelegate.swift */; };
+		D6336D081FC6C13C00A0CE9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6336D071FC6C13C00A0CE9B /* ViewController.swift */; };
+		D6336D0B1FC6C13C00A0CE9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6336D091FC6C13C00A0CE9B /* Main.storyboard */; };
+		D6336D0D1FC6C13C00A0CE9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6336D0C1FC6C13C00A0CE9B /* Assets.xcassets */; };
+		D6336D101FC6C13C00A0CE9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6336D0E1FC6C13C00A0CE9B /* LaunchScreen.storyboard */; };
+		D6336D1B1FC6C13C00A0CE9B /* SumutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6336D1A1FC6C13C00A0CE9B /* SumutTests.swift */; };
+		D6336D261FC6C13C00A0CE9B /* SumutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6336D251FC6C13C00A0CE9B /* SumutUITests.swift */; };
+		D6336D341FC6C21F00A0CE9B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6336D331FC6C21F00A0CE9B /* DetailViewController.swift */; };
+		D6336D361FC6C23000A0CE9B /* ResepTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6336D351FC6C23000A0CE9B /* ResepTableViewController.swift */; };
+		D6336D381FC6C25100A0CE9B /* ResepTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6336D371FC6C25100A0CE9B /* ResepTableViewCell.swift */; };
+		FCBEDD821423E334862F262A /* Pods_Sumut.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 393458D2A30AC2DED2C459C5 /* Pods_Sumut.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6336D171FC6C13C00A0CE9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6336CFA1FC6C13C00A0CE9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6336D011FC6C13C00A0CE9B;
+			remoteInfo = Sumut;
+		};
+		D6336D221FC6C13C00A0CE9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6336CFA1FC6C13C00A0CE9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6336D011FC6C13C00A0CE9B;
+			remoteInfo = Sumut;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32EB7A059BE639EEDE36AA3C /* Pods_SumutTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SumutTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		393458D2A30AC2DED2C459C5 /* Pods_Sumut.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sumut.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC83D9E4EEBAD4C3FF3F416B /* Pods-Sumut.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sumut.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sumut/Pods-Sumut.debug.xcconfig"; sourceTree = "<group>"; };
+		CD503E0D6F1E753FDB6CDD4D /* Pods-Sumut.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sumut.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sumut/Pods-Sumut.release.xcconfig"; sourceTree = "<group>"; };
+		D6336D021FC6C13C00A0CE9B /* Sumut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sumut.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6336D051FC6C13C00A0CE9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D6336D071FC6C13C00A0CE9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D6336D0A1FC6C13C00A0CE9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6336D0C1FC6C13C00A0CE9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6336D0F1FC6C13C00A0CE9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6336D111FC6C13C00A0CE9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6336D161FC6C13C00A0CE9B /* SumutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SumutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6336D1A1FC6C13C00A0CE9B /* SumutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumutTests.swift; sourceTree = "<group>"; };
+		D6336D1C1FC6C13C00A0CE9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6336D211FC6C13C00A0CE9B /* SumutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SumutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6336D251FC6C13C00A0CE9B /* SumutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumutUITests.swift; sourceTree = "<group>"; };
+		D6336D271FC6C13C00A0CE9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6336D331FC6C21F00A0CE9B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		D6336D351FC6C23000A0CE9B /* ResepTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResepTableViewController.swift; sourceTree = "<group>"; };
+		D6336D371FC6C25100A0CE9B /* ResepTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResepTableViewCell.swift; sourceTree = "<group>"; };
+		F054A8ACB1A3210480D6A219 /* Pods_SumutUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SumutUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6336CFF1FC6C13C00A0CE9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCBEDD821423E334862F262A /* Pods_Sumut.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6336D131FC6C13C00A0CE9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6336D1E1FC6C13C00A0CE9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9284E7B7043E81CF081550E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				393458D2A30AC2DED2C459C5 /* Pods_Sumut.framework */,
+				32EB7A059BE639EEDE36AA3C /* Pods_SumutTests.framework */,
+				F054A8ACB1A3210480D6A219 /* Pods_SumutUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6100D55B97E0E0391E8E973 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC83D9E4EEBAD4C3FF3F416B /* Pods-Sumut.debug.xcconfig */,
+				CD503E0D6F1E753FDB6CDD4D /* Pods-Sumut.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D6336CF91FC6C13C00A0CE9B = {
+			isa = PBXGroup;
+			children = (
+				D6336D041FC6C13C00A0CE9B /* Sumut */,
+				D6336D191FC6C13C00A0CE9B /* SumutTests */,
+				D6336D241FC6C13C00A0CE9B /* SumutUITests */,
+				D6336D031FC6C13C00A0CE9B /* Products */,
+				A6100D55B97E0E0391E8E973 /* Pods */,
+				9284E7B7043E81CF081550E2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D6336D031FC6C13C00A0CE9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6336D021FC6C13C00A0CE9B /* Sumut.app */,
+				D6336D161FC6C13C00A0CE9B /* SumutTests.xctest */,
+				D6336D211FC6C13C00A0CE9B /* SumutUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6336D041FC6C13C00A0CE9B /* Sumut */ = {
+			isa = PBXGroup;
+			children = (
+				D6336D051FC6C13C00A0CE9B /* AppDelegate.swift */,
+				D6336D071FC6C13C00A0CE9B /* ViewController.swift */,
+				D6336D091FC6C13C00A0CE9B /* Main.storyboard */,
+				D6336D0C1FC6C13C00A0CE9B /* Assets.xcassets */,
+				D6336D0E1FC6C13C00A0CE9B /* LaunchScreen.storyboard */,
+				D6336D111FC6C13C00A0CE9B /* Info.plist */,
+				D6336D331FC6C21F00A0CE9B /* DetailViewController.swift */,
+				D6336D351FC6C23000A0CE9B /* ResepTableViewController.swift */,
+				D6336D371FC6C25100A0CE9B /* ResepTableViewCell.swift */,
+			);
+			path = Sumut;
+			sourceTree = "<group>";
+		};
+		D6336D191FC6C13C00A0CE9B /* SumutTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6336D1A1FC6C13C00A0CE9B /* SumutTests.swift */,
+				D6336D1C1FC6C13C00A0CE9B /* Info.plist */,
+			);
+			path = SumutTests;
+			sourceTree = "<group>";
+		};
+		D6336D241FC6C13C00A0CE9B /* SumutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D6336D251FC6C13C00A0CE9B /* SumutUITests.swift */,
+				D6336D271FC6C13C00A0CE9B /* Info.plist */,
+			);
+			path = SumutUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6336D011FC6C13C00A0CE9B /* Sumut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6336D2A1FC6C13C00A0CE9B /* Build configuration list for PBXNativeTarget "Sumut" */;
+			buildPhases = (
+				519C635A292FE18EBB3D627D /* [CP] Check Pods Manifest.lock */,
+				D6336CFE1FC6C13C00A0CE9B /* Sources */,
+				D6336CFF1FC6C13C00A0CE9B /* Frameworks */,
+				D6336D001FC6C13C00A0CE9B /* Resources */,
+				8085427563DA4CB435E4701B /* [CP] Embed Pods Frameworks */,
+				014D9D4A59A74802824B6D50 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sumut;
+			productName = Sumut;
+			productReference = D6336D021FC6C13C00A0CE9B /* Sumut.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6336D151FC6C13C00A0CE9B /* SumutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6336D2D1FC6C13C00A0CE9B /* Build configuration list for PBXNativeTarget "SumutTests" */;
+			buildPhases = (
+				D6336D121FC6C13C00A0CE9B /* Sources */,
+				D6336D131FC6C13C00A0CE9B /* Frameworks */,
+				D6336D141FC6C13C00A0CE9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6336D181FC6C13C00A0CE9B /* PBXTargetDependency */,
+			);
+			name = SumutTests;
+			productName = SumutTests;
+			productReference = D6336D161FC6C13C00A0CE9B /* SumutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6336D201FC6C13C00A0CE9B /* SumutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6336D301FC6C13C00A0CE9B /* Build configuration list for PBXNativeTarget "SumutUITests" */;
+			buildPhases = (
+				D6336D1D1FC6C13C00A0CE9B /* Sources */,
+				D6336D1E1FC6C13C00A0CE9B /* Frameworks */,
+				D6336D1F1FC6C13C00A0CE9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6336D231FC6C13C00A0CE9B /* PBXTargetDependency */,
+			);
+			name = SumutUITests;
+			productName = SumutUITests;
+			productReference = D6336D211FC6C13C00A0CE9B /* SumutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6336CFA1FC6C13C00A0CE9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Djoendhie;
+				TargetAttributes = {
+					D6336D011FC6C13C00A0CE9B = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					D6336D151FC6C13C00A0CE9B = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D6336D011FC6C13C00A0CE9B;
+					};
+					D6336D201FC6C13C00A0CE9B = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D6336D011FC6C13C00A0CE9B;
+					};
+				};
+			};
+			buildConfigurationList = D6336CFD1FC6C13C00A0CE9B /* Build configuration list for PBXProject "Sumut" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6336CF91FC6C13C00A0CE9B;
+			productRefGroup = D6336D031FC6C13C00A0CE9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6336D011FC6C13C00A0CE9B /* Sumut */,
+				D6336D151FC6C13C00A0CE9B /* SumutTests */,
+				D6336D201FC6C13C00A0CE9B /* SumutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6336D001FC6C13C00A0CE9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6336D101FC6C13C00A0CE9B /* LaunchScreen.storyboard in Resources */,
+				D6336D0D1FC6C13C00A0CE9B /* Assets.xcassets in Resources */,
+				D6336D0B1FC6C13C00A0CE9B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6336D141FC6C13C00A0CE9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6336D1F1FC6C13C00A0CE9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		014D9D4A59A74802824B6D50 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sumut/Pods-Sumut-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		519C635A292FE18EBB3D627D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sumut-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8085427563DA4CB435E4701B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Sumut/Pods-Sumut-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sumut/Pods-Sumut-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6336CFE1FC6C13C00A0CE9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6336D341FC6C21F00A0CE9B /* DetailViewController.swift in Sources */,
+				D6336D381FC6C25100A0CE9B /* ResepTableViewCell.swift in Sources */,
+				D6336D081FC6C13C00A0CE9B /* ViewController.swift in Sources */,
+				D6336D061FC6C13C00A0CE9B /* AppDelegate.swift in Sources */,
+				D6336D361FC6C23000A0CE9B /* ResepTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6336D121FC6C13C00A0CE9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6336D1B1FC6C13C00A0CE9B /* SumutTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6336D1D1FC6C13C00A0CE9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6336D261FC6C13C00A0CE9B /* SumutUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6336D181FC6C13C00A0CE9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6336D011FC6C13C00A0CE9B /* Sumut */;
+			targetProxy = D6336D171FC6C13C00A0CE9B /* PBXContainerItemProxy */;
+		};
+		D6336D231FC6C13C00A0CE9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6336D011FC6C13C00A0CE9B /* Sumut */;
+			targetProxy = D6336D221FC6C13C00A0CE9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6336D091FC6C13C00A0CE9B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6336D0A1FC6C13C00A0CE9B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6336D0E1FC6C13C00A0CE9B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6336D0F1FC6C13C00A0CE9B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6336D281FC6C13C00A0CE9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D6336D291FC6C13C00A0CE9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6336D2B1FC6C13C00A0CE9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC83D9E4EEBAD4C3FF3F416B /* Pods-Sumut.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Sumut/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.Sumut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6336D2C1FC6C13C00A0CE9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD503E0D6F1E753FDB6CDD4D /* Pods-Sumut.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Sumut/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.Sumut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D6336D2E1FC6C13C00A0CE9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SumutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.SumutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sumut.app/Sumut";
+			};
+			name = Debug;
+		};
+		D6336D2F1FC6C13C00A0CE9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SumutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.SumutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sumut.app/Sumut";
+			};
+			name = Release;
+		};
+		D6336D311FC6C13C00A0CE9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SumutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.SumutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sumut;
+			};
+			name = Debug;
+		};
+		D6336D321FC6C13C00A0CE9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SumutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.SumutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sumut;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6336CFD1FC6C13C00A0CE9B /* Build configuration list for PBXProject "Sumut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6336D281FC6C13C00A0CE9B /* Debug */,
+				D6336D291FC6C13C00A0CE9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6336D2A1FC6C13C00A0CE9B /* Build configuration list for PBXNativeTarget "Sumut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6336D2B1FC6C13C00A0CE9B /* Debug */,
+				D6336D2C1FC6C13C00A0CE9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6336D2D1FC6C13C00A0CE9B /* Build configuration list for PBXNativeTarget "SumutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6336D2E1FC6C13C00A0CE9B /* Debug */,
+				D6336D2F1FC6C13C00A0CE9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6336D301FC6C13C00A0CE9B /* Build configuration list for PBXNativeTarget "SumutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6336D311FC6C13C00A0CE9B /* Debug */,
+				D6336D321FC6C13C00A0CE9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6336CFA1FC6C13C00A0CE9B /* Project object */;
+}
